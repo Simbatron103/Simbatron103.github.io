@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p>Bästa glassen:</p>
+<form action="/action_page.php">
+<input type="radio" id="vanilj" name="Bästa_glassen" value="vanilj">
+<label for="vanilj">Vanilj</label><br>
+<input type="radio" id="chocklad" name="Bästa_glassen" value="choklad" checked>
+<label for="choklad">Choklad</label><br>
+<input type="radio" id="jordgubb" name="Bästa_glassen" value="jordgubb">
+<label for="jordgubb">Jordgubb</label>
+<br>
+<p>Bästa Bilen:</p>
+</form>
+<form action="/action_page.php">
+<input type="radio" id="volvo" name="Bästa_bilen" value="volvo">
+<label for="volvo">Volvo</label><br>
+<input type="radio" id="ford" name="Bästa_bilen" value="ford" checked>
+<label for="ford">Ford</label><br>
+<input type="radio" id="tesla" name="Bästa_bilen" value="tesla">
+<label for="tesla">Tesla</label>
+<br>
+</form>
+<hr>
+<p>Intressen</p>
+<form action="/action_page.php">
+<input type="checkbox" id="pokémon" name="Intressen" value="pokémon">
+<label for="pokémon">Pokémon</label><br>
+<input type="checkbox" id="bilar" name="Intressen" value="bilar" >
+<label for="bilar">Bilar</label><br>
+<input type="checkbox" id="dataspel" name="Intressen" value="dataspel">
+<label for="dataspel">Dataspel</label> <br>
+<input type="checkbox" id="hästar" name="Intressen" value="hästar">
+<label for="hästar">Hästar</label> <br>
+<input type="submit" value="submit">
+</form>
+<hr>
+<p>Vad är din favoritfärg? 
+<form action ="action_page.php"><input type="color" id="favoritfärg" name="favoritfärg" value="favoritfärg">
+<input type="submit" value ="submit">
+</form></p>
+<hr>
+<p>När är du född?
+<form action ="action_page.php">
+<input type="date" id="född" name="födelsedatum" value="född">
+<input type="submit" value ="submit">
+</form>
+<hr>
+<p>Vilken tid vill du boka möte?
+<form action ="action_page.php">
+<input type="datetime-local" id="tid" name="bokningstid" value="tid">
+<input type="submit" value ="submit">
+</form>
+<hr>
+<p>Email:</p>
+<form action ="action_page.php"><input type="datetime-local" id="tid" name="bokningstid" value="tid">
+<input type="email" id ="email" name="email" value="email">
+<input type="submit" value="submit">
+</form>
+<hr>
+<form action="/action_page.php">
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname" value="John"><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname" value="Doe"><br><br>
+<input type ="image" value="Submit" src = "Skärmbild 2025-01-21 125824.png" alt ="submit">
+</form>
+<hr>
+<form action="/action_page.php">
+<p>Ladda upp profilbild <input type="file" id="file" name="file" value="file">
+<input type="submit" value="submit">
+</form>
+<hr>
+<p>Hur bra är läraren (1-10)</p>
+<form action="/action_page.php">
+<input type="range" min="1"max="10" id="nummer"name="lärareförmåga" value="nummer">
+<input type="submit" value="submit">
+</form>
+<hr>
+<p>Choose a car:</p>
+<form action="/action_page.php">
+<input list ="Cars" name="Cars">
+<datalist id ="Cars">
+<option value ="Volvo">Volvo</option>
+<option Saab ="Volvo">Saab</option>
+<option value ="Fiat">Fiat</option>
+<option value ="Audi">Audi</option>
+</datalist>
+<input type ="submit" value="submit">
+</form>
+<hr>
+<p>skriv en dikt</p>
+<form action="/action_page.php">
+<textarea id="dikt_text" name="dikt_text" rows="4" cols="50">
+Kodens dans i nät,
+Skapar sidor, liv och dröm,
+Webben vävs så lätt.
+</textarea>
+<input type ="submit" value="submit">
+</form>
+<hr>
+<form action="/action_page.php">
+
+<fieldset id="människa" width="50" height="50">
+<legend>Männsika:</legend>
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname" value="Anders"><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname" value="Johansson"><br><br>
+</fieldset>
+<fieldset id="Hund" width="50" height="50">
+    <legend>Hund:</legend>
+    <label for="Hundnamn">Hundnamn:</label><br>
+    <input type="text" id="Hundnamn" name="Hundnamn" value="Hulken"><br>
+    <label for="Chipnummer">Chipnummer: </label><br>
+    <input type="text" id="Chipnummer" name="Chipnummer" value="xxxxx"><br><br>
+    </fieldset>
+</form>
+<hr>
+<form action="/action_page.php" method="post">
+<p>Username:</p>
+<input type ="text" id="Simba" name="username"value="Simba">
+<p>Password:</p>
+<input type ="password" id="cat" name="password"value="cat">
+<input type ="submit" value="submit">
+</form>
+</body>
+</html>
