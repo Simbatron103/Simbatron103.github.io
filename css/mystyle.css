@@ -1,6 +1,20 @@
 body{
-    background-color: rebeccapurple;
+    background-image:url("/Skärmbild\ 2025-01-21\ 125824.png");
+    
 }
 p{
    color:rgb(0, 0, 0); text-align: center; font-family: 'Courier New', Courier, monospace;
+   background-image:url("https://i.pinimg.com/736x/3c/b6/d2/3cb6d2482c74613715d7c28ffe199ebb.jpg")
+}
+.whysogreen{
+    color:  green;
+    background-image:url("https://m.media-amazon.com/images/I/61reQMYsG6L._AC_UF1000,1000_QL80_.jpg")
+   
+    
+}
+.whyso{ 
+    background-color: aqua;
+    text-align: center;
+    opacity: 0.3;
+ color:red;
 }
