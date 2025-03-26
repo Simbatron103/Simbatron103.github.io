@@ -1,0 +1,17 @@
+.BIGtitle{
+    font-size: 100px;
+    font-family:fantasy;
+    color:darkblue;
+    text-align: center;
+    background-color: aqua;
+    text-shadow: -2px 3px 1px darkcyan, 0px 0px 10px white, 2px -2px 1px white;
+
+    
+}
+body{
+    background-color: aquamarine;
+}
+p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
