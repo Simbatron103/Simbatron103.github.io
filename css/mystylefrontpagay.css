@@ -8,15 +8,95 @@
 
     
 }
-body{
-    background-color: aquamarine;
+@media screen and (max-width: 600px) {
+    .BIGtitle {
+        font-size: 70px;
+    }
 }
+
+body{
+    background-color: rgb(57, 91, 240);
+}  
+
+  @media screen and (min-width: 600px) {
+    body {
+      background-color: rgb(144, 182, 238);
+      background-image:none;
+    }
+  }
+  @media screen and (max-width: 700px) and (min-width: 690px) {
+    body {
+background-image:url("/Skärmbild\ 2025-01-21\ 125824.png")
+    }
+  }
+     @media screen and (max-width: 690px) and (min-width: 680px) {
+    body {
+background-image:url("https://m.media-amazon.com/images/I/61reQMYsG6L._AC_UF1000,1000_QL80_.jpg")
+    }
+  }
+  @media screen and (max-width: 680px) and (min-width: 670px) {
+    body {
+background-image:url("https://i.pinimg.com/736x/3c/b6/d2/3cb6d2482c74613715d7c28ffe199ebb.jpg")
+    }
+  }
+  @media screen and (max-width: 670px) and (min-width: 660px) {
+    body {
+background-image:url("https://tr.rbxcdn.com/180DAY-d5f59643c2050b82be112fe297d4ea19/420/420/Hat/Webp/noFilter")
+    }
+  }
+  @media screen and (max-width: 660px) and (min-width: 650px) {
+    body {
+background-image:url("https://i1.sndcdn.com/artworks-oh0fgNuyVzDhBQ1l-sa4i3w-t500x500.jpg")
+    }
+  }
+  @media screen and (max-width: 650px) and (min-width: 640px) {
+    body {
+background-image:url("https://creator.nightcafe.studio/users/WMeQyeIVUoeWnMMF7UPlBrEMDLI3/uploads/yPhWy8uILEbiQAvy4EG2.png")
+    }
+  }
+  @media screen and (max-width: 640px) and (min-width: 630px) {
+    body {
+background-image:url("https://mymodernmet.com/wp/wp-content/uploads/2021/10/smiling-cat-pixel-6.jpg")
+    }
+  }
+  @media screen and (max-width: 630px) and (min-width: 620px) {
+    body {
+background-image:url("https://preview.redd.it/my-cat-looks-goofy-v0-vreh8zeeym091.jpg?auto=webp&s=33da9de320b021a33877f96b686c65be8641b3f6")
+    }
+  }
+  @media screen and (max-width: 620px) and (min-width: 610px) {
+    body {
+background-image:url("https://mymodernmet.com/wp/wp-content/uploads/2021/10/smiling-cat-pixel-5.jpg")
+    }
+  }
+  @media screen and (max-width: 610px) and (min-width: 600px) {
+    body {
+background-image:url("https://preview.redd.it/iaabg3iq3hn61.jpg?width=526&format=pjpg&auto=webp&s=1a6caec79f16eb3183f1ff8d01605f995069f77e")
+    }
+  }
+ 
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: rgb(96, 149, 228);
+      background-image:none;
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    body {
+      background-color: aquamarine;
+      background-image:none;
+    }
+  }
 p{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 .border{
+    margin: 70px;
     border-width: 5px;
+    padding:  10px;
     border-style: solid;
     border-color:aqua;
     background-color: aqua;

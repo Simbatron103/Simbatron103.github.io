@@ -1,0 +1,25 @@
+body {
+    background-color: #dbd2b9;
+    display: flow-root;
+}
+.title {
+    text-align: center;
+}
+img {
+    float: left;
+    width: 50px;
+    height: 40px;
+}
+p{
+    width: 300px;
+    text-align: justify;
+}
+div{
+    
+    width: 25%;
+    padding: 10px;
+    margin:auto;
+    border-style: hidden;
+    
+    
+}
