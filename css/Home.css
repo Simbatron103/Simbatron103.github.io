@@ -13,7 +13,12 @@ body {
     text-align: center;
 
 }
-
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:10px 
+  }
 .container {
     display: grid;
     grid-template-areas:
@@ -25,11 +30,23 @@ body {
     grid-template-rows: auto auto auto;
    
 }
+a{
+    color:black;
+    font-family: cursive;
+    font-size: 20px;
+}
 .header nav {
     display: flex;
     justify-content: center;
     gap: 200px;
     
+}
+.border{
+    border: black;
+    border-style:solid;
+    border-width: 2px;
+    padding:5px;
+    text-align: center;
 }
 .righticon{
     float: right;
@@ -49,6 +66,7 @@ body {
     background: crimson;
     text-align: center;
     grid-area: header;
+    height: 350px;  
  
 }
 .Home{
@@ -62,15 +80,35 @@ body {
     grid-area: sidebar;
     background: rgb(255, 255, 0);
     text-align: left;
+    height: 1000px;
    
    
    
 }
+.products{
+    width: 150px;
+    height: 150px;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
 .main{
     grid-area: main;
     background: rgb(255, 255, 255);
     text-align: left;
-    
+    height: 1000px;
    
    
 }
@@ -78,14 +116,12 @@ body {
     grid-area: footer;
     background: rgb(255, 255, 136);
     text-align: left;
-  
+  height: 250px;  
    
    
 }
 
-.NOUNDERSHITER{
-    text-decoration:none;
-}
+
 @media (max-width: 768px) {
     .container {
         grid-template-areas:
