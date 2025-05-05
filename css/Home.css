@@ -152,6 +152,33 @@ a:link {
             text-align: center;
          
         }
+        .main{
+            grid-area: main;
+            background: rgb(255, 255, 255);
+          
+            height: 500px;
+           
+           
+        }
+        .products{
+            width: 75px;
+            height: 75px;
+        }
+        .footer{
+            grid-area: footer;
+            background:beige;
+            
+          height: 125px;  
+           
+           
+        }
+        .header{
+            background: crimson;
+            text-align: center;
+            grid-area: header;
+            height: 175px;  
+         
+        }
         .lefticon{
             float: left;
             height: 40px;
