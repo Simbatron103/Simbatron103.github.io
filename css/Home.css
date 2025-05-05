@@ -78,12 +78,25 @@ a{
 }
 .sidebar{
     grid-area: sidebar;
-    background: rgb(255, 255, 0);
+    background:rgb(204, 37, 70);
     text-align: left;
     height: 1000px;
    
    
    
+}
+.title{
+    font-size: 40px;
+    color:black;
+    font-family: cursive;
+    background-color: crimson;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.arrow {
+    height: 30px;
+    width: 60px;
 }
 .products{
     width: 150px;
@@ -107,15 +120,15 @@ a:link {
 .main{
     grid-area: main;
     background: rgb(255, 255, 255);
-    text-align: left;
+  
     height: 1000px;
    
    
 }
 .footer{
     grid-area: footer;
-    background: rgb(255, 255, 136);
-    text-align: left;
+    background:beige;
+    
   height: 250px;  
    
    
