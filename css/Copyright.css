@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    text-align: center;
+}
+.BIGTITLE{
+    font-size: 70px;
+    font-family:cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:10px 
+  }
+.container {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-template-columns: 100%;
+   
+    grid-template-rows: auto auto auto;
+   
+}
+a{
+    color:black;
+    font-family: cursive;
+    font-size: 20px;
+}
+.header nav {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    
+}
+.border{
+    border: black;
+    border-style:solid;
+    border-width: 2px;
+    padding:5px;
+    text-align: center;
+}
+.righticon{
+    float: right;
+    height: 100px;
+    width: 100px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+.lefticon{
+    float: left;
+    height: 100px;
+    width: 100px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.header{
+    background: crimson;
+    text-align: center;
+    grid-area: header;
+    height: 350px;  
+ 
+}
+.Home{
+    font-size: 50px;
+    font-family:cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    float:left;
+}
+.sidebar{
+    grid-area: sidebar;
+    background:rgb(204, 37, 70);
+    text-align: left;
+    height: 1000px;
+   
+   
+   
+}
+.title{
+    font-size: 40px;
+    color:black;
+    font-family: cursive;
+    background-color: crimson;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.arrow {
+    height: 30px;
+    width: 60px;
+}
+.products{
+    width: 150px;
+    height: 150px;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+.main{
+    grid-area: main;
+    background: rgb(255, 255, 255);
+  
+    height: 600px;
+   
+   
+}
+.footer{
+    grid-area: footer;
+    background:beige;
+    
+  height: 150px;  
+   
+   
+}
+.Gap{
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-areas:
+            "header"
+            "main"
+            "footer";
+        grid-template-columns: 100%;
+
+        grid-template-rows: auto auto auto auto;}
+        .BIGTITLE{
+            font-size: 25px;
+            font-family:cursive;
+            color: rgb(255, 255, 255);
+            text-align: center;
+         
+        }
+        .main{
+            grid-area: main;
+            background: rgb(255, 255, 255);
+          
+            height: 500px;
+           
+           
+        }
+        .sidebar{
+            grid-area: sidebar;
+            background:rgb(204, 37, 70);
+            text-align: left;
+            height: 250px;
+           
+           
+           
+        }
+        .title{
+            font-size: 20px;
+            color:black;
+            font-family: cursive;
+            background-color: crimson;
+            margin-left: 5px;
+            margin-right: 5px;
+            
+        }
+        .products{
+            width: 50px;
+            height: 50px;
+        }
+        .footer{
+            grid-area: footer;
+            background:beige;
+            
+          height: 250px;  
+           
+           
+        }
+        .header{
+            background: crimson;
+            text-align: center;
+            grid-area: header;
+            height: 175px;  
+         
+        }
+        .lefticon{
+            float: left;
+            height: 40px;
+            width: 40px;
+            padding-left: 5px;
+            margin-top: 2px;
+        }
+        .righticon{
+            float: right;
+            height: 40px;
+            width: 40px;
+            padding-right: 5px;
+            margin-top: 2px;
+        }
+        .Home{
+            font-size: 20px;
+            font-family:cursive;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            float:left;
+        }
+        .header nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            
+        }
+    }
