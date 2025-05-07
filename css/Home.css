@@ -160,6 +160,9 @@ a:link {
            
            
         }
+        p{
+            font-size: 10px;
+        }
         .sidebar{
             grid-area: sidebar;
             background:rgb(204, 37, 70);

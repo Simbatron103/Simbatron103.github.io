@@ -226,4 +226,7 @@ a:link {
             gap: 20px;
             
         }
+        p{
+            font-size: 10px;
+           }
     }

@@ -219,6 +219,9 @@ a:link {
             text-align: center;
             float:left;
         }
+        p{
+         font-size: 10px;
+        }
         .header nav {
             display: flex;
             justify-content: center;
