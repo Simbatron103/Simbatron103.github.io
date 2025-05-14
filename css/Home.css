@@ -175,10 +175,10 @@ a:link {
            
         }
         .long{
-            font-size: 7px;
+            font-size: 6px;
         }
         .short{
-            font-size: 10px;
+            font-size: 9px;
         }
         p{
             font-size: 10px;
@@ -187,7 +187,7 @@ a:link {
             grid-area: sidebar;
             background:rgb(204, 37, 70);
             text-align: left;
-            height: 250px;
+            height: 325px;
            
            
            
