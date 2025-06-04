@@ -107,6 +107,22 @@ a{
     margin-top: 20px;
     width: 400px;
     height: 400px;
+    transition: width 2s, height 2s;
+}
+.products:hover{
+width: 600px;
+height: 600px;
+}
+.pixel{
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+     transition: width 2s, height 2s, transform 4s;
+}
+.pixel:hover{
+width: 600px;
+height: 600px;
+transform: rotate(36000deg);
 }
 a:link {
     text-decoration: none;
@@ -220,6 +236,21 @@ font-family:monospace,cursive, fantasy;
            
            
         }
+        .pixel{
+    
+    width: 120px;
+    height: 120px;
+      transition: width 2s, height 2s, transform 2s;
+}
+     .pixel:hover{
+width: 150px;
+height: 150px;
+transform: rotate(720deg);
+}
+.products:hover{
+width: 150px;
+height: 150px;
+}
         .buyborder{
     border: lime;
     text-align: center;
